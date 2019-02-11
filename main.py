@@ -41,6 +41,6 @@ for x in range(0, 499):
             eh+=1
             draw_line(250+x, 250+y, x, y, screen, color)
 '''
-
-save_extension(screen, 'img.png')
 print("img.png")
+display(screen)
+save_extension(screen, 'img.png')
